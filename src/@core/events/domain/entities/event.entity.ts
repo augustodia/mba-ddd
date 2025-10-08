@@ -1,5 +1,5 @@
 import { AggregateRoot } from '../../../common/domain/aggregate-root';
-import Uuid from '../../../common/domain/uuid.vo';
+import Uuid from '../../../common/domain/value-objects/uuid.vo';
 import { EventSection } from './event-section.entity';
 import { PartnerId } from './partner.entity';
 

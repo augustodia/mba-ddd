@@ -1,5 +1,5 @@
 import { Entity } from '../../../common/domain/entity';
-import Uuid from '../../../common/domain/uuid.vo';
+import Uuid from '../../../common/domain/value-objects/uuid.vo';
 import { EventSpot } from './event-spot.entity';
 
 export class EventSectionId extends Uuid {}

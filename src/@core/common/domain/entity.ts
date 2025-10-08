@@ -1,4 +1,4 @@
-import Uuid from './uuid.vo';
+import Uuid from './value-objects/uuid.vo';
 
 export abstract class Entity {
   readonly id: Uuid;
