@@ -5,11 +5,9 @@ test('deve criar um evento', () => {
     name: 'Parceiro 1',
   });
 
-  const event = partner.initEvent({
+  partner.initEvent({
     name: 'Evento 1',
     description: 'Descrição do evento 1',
     date: new Date(),
   });
-
-  console.log(event);
 });
